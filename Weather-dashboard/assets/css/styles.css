@@ -1,0 +1,148 @@
+body {
+    margin: 5px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid h1 {
+    color: white;
+}
+
+.search-panel {
+    width: 550px;
+    margin: 10px 20px 0 10px;
+    padding: 10px 0 20px 20px;
+    background-color: lightgrey;
+}
+
+.btn {
+    position: relative;
+    right: 174px;
+    top: 54px;
+    width: 291px;
+}
+
+.search-button-panel {
+    margin-left: -52px;
+
+}
+
+.city-list-box {
+    margin-top: 60px;
+}
+
+.city-name {
+    width: 89%;
+}
+
+.form-control{
+    width: 290px;
+    height: 40px;
+}
+
+.results-panel {
+    width: 75%;
+    padding-bottom: 10px;
+    visibility: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.current-conditions-panel {
+    border: 5px solid rgb(3, 141, 255);
+    border-right: none;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.name-block,
+.uv-index-block {
+    display: flex;
+    align-items: center;
+}
+
+#uv-index {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.forecast-panel {
+    padding-top: 50px;
+}
+
+.container {
+    display: inline;
+}
+
+.card-header,
+.card-body {
+    text-align: center;
+}
+
+.card-body,
+.card-header {
+    background-color: rgb(3, 141, 255);
+    color: white;
+    border: 2px solid black;
+}
+
+.card-body,
+.card-header,
+.current-conditions-panel{
+    border-radius: 10px;
+}
+
+/* Classes Added to Elements */
+
+.favorable {
+    background-color: green;
+    color: white;
+}
+
+.moderate {
+    background-color: yellow;
+    color: black;
+}
+
+.severe {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .btn {
+        width: 400px;
+        left: -240px;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+    .btn {
+        width: 345px;
+        left: -217px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    /*Tablets [601px -> 1200px]*/
+    .btn {
+        width: 310px;
+        left: -180px;
+    }
+    
+}
+
