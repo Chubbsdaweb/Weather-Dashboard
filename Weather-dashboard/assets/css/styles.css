@@ -119,17 +119,45 @@ section {
     color: white;
 }
 
-@media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 1900px){
+    
     .btn {
-        width: 400px;
-        left: -240px;
+        width: 445px;
+        left: -280px;
     }
     
 }
 
+@media only screen and (max-width: 1700px){
+    
+    .btn {
+        width: 445px;
+        left: -280px;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px){
+    
+    .btn {
+        width: 410px;
+        left: -250px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .btn {
+        width: 420px;
+        left: -250px;
+    }
+    
+}
+
+
 @media only screen and (max-width: 1000px){
-    /*Tablets [601px -> 1200px]*/
+    
     .btn {
         width: 345px;
         left: -217px;
@@ -137,8 +165,17 @@ section {
     
 }
 
+@media only screen and (max-width: 850px){
+
+    .btn {
+        width: 320px;
+        left: -190px;
+    }
+    
+}
+
 @media only screen and (max-width: 800px){
-    /*Tablets [601px -> 1200px]*/
+
     .btn {
         width: 310px;
         left: -180px;
